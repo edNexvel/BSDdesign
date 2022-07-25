@@ -34,8 +34,13 @@ body {
   @media (max-width: 767px) {
     .navbar-dark {
       display: flex;
-      flex-direction: column;
-      padding-top: 10px; } }
+      justify-content: center;
+      padding-top: 10px; } 
+    .navbar-text{
+      margin-left: 0 !important;
+      text-align: center;
+    }}
+
 
 .page-title {
   font-size: 100px;
